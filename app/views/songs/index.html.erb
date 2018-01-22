@@ -8,9 +8,14 @@
       <th>Genre</th>
     </tr>
   </thead>
+
+  <tbody>
+    <% @songs.each do |song| %>
+    <tr>
+      <td><%= song. %></td>
+    </tr>
+    <% end %>
+  </tbody>
 </table>
 
 
-<% @songs.each do |song| %>
-<%= song.title %>
-<% end %>
