@@ -8,6 +8,6 @@
   <%= f.label :genre %>
   <%= f.text_field :genre, @song.genre %>
   <%= f.label :released %>
-  <%= f.text_field :released, @song.released %>
+  <%= f.check_box :released, @song.released %>
   <%= f.submit %>
 <% end %>
